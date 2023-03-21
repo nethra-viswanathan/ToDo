@@ -1,0 +1,5 @@
+export const ADDNEWTODO = 'ADDNEW_TODO';
+export const LISTTODO = 'LISTTODO';
+export const TOGGLETODO = 'TOGGLETODO';
+export const DELETETODO = 'DELETETODO';
+export const UPDATENEWTODO = 'UPDATENEWTODO';

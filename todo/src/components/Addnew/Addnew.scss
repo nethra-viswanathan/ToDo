@@ -1,0 +1,13 @@
+.add-container{
+    button{
+        width: 100%;
+        border: 1px solid $button-color;
+        border-radius: 5px;
+        padding: 15px;
+        background-color: transparent;
+        color: $button-color;
+        margin-top: 30px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+}

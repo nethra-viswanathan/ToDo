@@ -1,0 +1,27 @@
+{
+  "name": "apis",
+  "version": "1.0.0",
+  "description": "create crud APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-fall-2022/assignment-8-nethraviswanathan29.git"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-fall-2022/assignment-8-nethraviswanathan29/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-fall-2022/assignment-8-nethraviswanathan29#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2",
+    "nodemon": "^2.0.20"
+  }
+}

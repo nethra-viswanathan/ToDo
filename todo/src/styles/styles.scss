@@ -1,0 +1,108 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    //to-do list styles
+    .main-container{
+        margin-top: 40px;
+        .container{
+            width: 50%;
+            border: 1px solid $border-color;
+            border-radius: 5px;
+            margin: auto;
+            padding: 20px;
+            //to-do heading
+            h1{
+                text-align: center;
+            }
+            .list-parent{
+                //to-do item styles
+                .list-item{
+                    display: flex;
+                    margin-top: 20px;
+                    &:first-child{
+                        margin-top: 0;
+                    }
+                    .task{
+                        width: 90%;
+                        padding: 10px;
+                        border: 1px solid $border-color;
+                        border-radius: 5px;
+                        position: relative;
+                        cursor: pointer;
+                        .head{
+                           display: flex;
+                           justify-content: space-between;
+                           .data_time{
+                            font-size: 12px;
+                            margin-top: 3px;
+                           }
+                           span{ 
+                            margin-left: 10px;
+                            
+                           }
+                           .title{
+                            font-weight: 600;
+                           }
+                           
+                           
+                        }
+                        .desc{
+                            margin: 10px;
+                            .descChild{
+                                display: flex;
+                                justify-content: space-between;
+                            }
+                        }
+                        .body{
+                            font-size: 12px;
+                            padding: 13px 11px;
+                        }
+                        
+                    }
+                    //add green background to completed items
+                    .task.completed {
+                        background-color: #C1E1C1;
+                        color: $button-color;
+                        border: 1px solid#6db16d;
+                    }
+                    .completed-parent{
+                        display: flex;
+                        width: 13%;
+                        margin: 11px 0px 0px 22px;
+                        
+                        .complete{
+                            fill: #2E8B57;
+                            fill-opacity: 0.8;
+                            cursor: pointer;
+                        }
+                        .delete{
+                            fill: #8b2e2e;
+                            fill-opacity: 0.8;
+                            margin-left: 10px;
+                            cursor: pointer;
+                        }
+                        .edit{
+                            fill:grey;
+                            fill-opacity: 0.8;
+                            margin-left: 10px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            //add button 
+            .add-container{
+                button{
+                    width: 100%;
+                    border: 1px solid $button-color;
+                    border-radius: 5px;
+                    padding: 15px;
+                    background-color: transparent;
+                    color: $button-color;
+                    margin-top: 30px;
+                    font-size: 14px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
